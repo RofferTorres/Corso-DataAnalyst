@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<incidenti_mezzi_pubblici>									<!-- Incidenti in cui sono coinvolti i mezzi pubblici-->
+	
+	<metadata>
+		<dc:publisher>ACI</dc:publisher>
+		<dc:title>Incidenti per strada, morti, feriti nel 2021 </dc:title>
+		<dc:abstract>Statistica incidenti relativi al comune di Torino nell'anno 2021</dc:abstract>
+		<dcterms:license>IODL v2.0</dcterms:license>
+		<dcterms:licenseDocument>http://www.dati.gov.it/iodl/2.0/</dcterms:licenseDocument>
+		<dc:language>Italiano</dc:language>
+		<dcterms:issued>2017-02-08 15:52:57.0</dcterms:issued>
+		<dc:source>Circolari e messaggi</dc:source>
+		<dc:identifier>https://www.aci.it/</dc:identifier>
+		<keywords>incidenti stradali; morti; feriti; trasporto pubblico</keywords>
+		<facets>
+		<argomento>
+		<dc:subject>Incidenti.Incidentistradali</dc:subject>
+		</argomento>
+		<periodo>
+		<dc:temporal>2021</dc:temporal>
+		</periodo>
+		<formato>
+		<dc:format>CSV</dc:format>
+		<dc:format>JSON</dc:format>
+		<dc:format>XLS</dc:format>
+		<dc:format>XML</dc:format>
+		</formato>
+		<tipo>
+		<dc:type>Tabella</dc:type>
+		</tipo>
+		</facets>
+	</metadata>
+	
+	<incidente numero= "0001">
+		<Luogo_inc cod_strada="SS02434">					<!-- Posto dove è avvenuto l'incidente-->
+			<Comune>Torino</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										<!-- Conseguenze e numero dei feriti/morti-->
+			<tipo>Incidente non mortale</tipo>
+			<n_morti>0</n_morti>
+			<n_feriti>1</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	<incidente numero= "0002">
+		<Luogo_inc cod_strada="SS58901">					
+			<Comune>Torino</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										
+			<tipo>Incidente non mortale</tipo>
+			<n_morti>0</n_morti>
+			<n_feriti>0</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	<incidente numero= "0003">
+		<Luogo_inc cod_strada="SS58936">					
+			<Comune>Torino</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										
+			<tipo>Incidente non mortale</tipo>
+			<n_morti>0</n_morti>
+			<n_feriti>2</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	<incidente numero= "0004">
+		<Luogo_inc cod_strada="TA00201">					
+			<Comune>Caselle Torinese</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										
+			<tipo>Incidente mortale</tipo>
+			<n_morti>2</n_morti>
+			<n_feriti>3</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	<incidente numero= "0005">
+		<Luogo_inc cod_strada="SS58936">					
+			<Comune>Torino</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										
+			<tipo>Incidente non mortale</tipo>
+			<n_morti>0</n_morti>
+			<n_feriti>1</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	<incidente numero= "0006">
+		<Luogo_inc cod_strada="SS58901">					
+			<Comune>Torino</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										
+			<tipo>Incidente non mortale</tipo>
+			<n_morti>0</n_morti>
+			<n_feriti>4</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	<incidente numero= "0007">
+		<Luogo_inc cod_strada="SS02434">					
+			<Comune>Torino</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										
+			<tipo>Incidente non mortale</tipo>
+			<n_morti>0</n_morti>
+			<n_feriti>1</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	<incidente numero= "0008">
+		<Luogo_inc cod_strada="TA00201">					
+			<Comune>Torino</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										
+			<tipo>Incidente non mortale</tipo>
+			<n_morti>0</n_morti>
+			<n_feriti>3</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	<incidente numero= "0009">
+		<Luogo_inc cod_strada="SS02434">					
+			<Comune>Torino</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										
+			<tipo>Incidente non mortale</tipo>
+			<n_morti>0</n_morti>
+			<n_feriti>2</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	<incidente numero= "0010">
+		<Luogo_inc cod_strada="SS58901">					
+			<Comune>Torino</Comune>
+			<Provincia>Città Metropolitana di Torino</Provincia>
+			<Regione>Piemonte</Regione>
+		</Luogo_inc>
+		<gravita_inc>										
+			<tipo>Incidente mortale</tipo>
+			<n_morti>1</n_morti>
+			<n_feriti>0</n_feriti>
+		</gravita_inc>
+	</incidente>	
+	
+	
+</incidenti_mezzi_pubblici>

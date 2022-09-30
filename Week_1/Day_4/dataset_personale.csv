@@ -1,0 +1,11 @@
+"_ID", ANNO, GENERE, QUALIFICA, "TURNO DI LAVORO","LINEA", "MEZZO"\n
+2105, 2021, M, """Operatori di Esercizio""", "08:00-14-00", 2, Autosnodato \n
+1908,  2021, F, """Operatori di Esercizio""", "21:00-01:00, 08:00-11:30", 11, Autobus \n
+1347, 2021, M, """Operatori di Esercizio""", "18:00-24-00", 58/, Autobus \n
+562,  2021, M, """Operatori di Esercizio""", "20:00-01:00, 08:00-10:30", 33, Autobus \n
+954, 2021, M, """Operatori di Esercizio""", "08:00-14-00", 16, Tram \n
+6,  2021, M, """Operatori di Esercizio""", "18:00-24:00", 40, Autobus \n
+1958, 2021, M, """Operatori di Esercizio""", "08:00-14-00", 58, Autosnodato \n
+2301,  2021, F, """Operatori di Esercizio""", "20:00-01:00, 08:00-10:30", 4, Tram \n
+1248, 2021, M, """Operatori di Esercizio""", "08:00-14-00", 10, Autobus \n
+758,  2021, M, """Operatori di Esercizio""", "21:00-01:00, 08:00-11:30", 90, Autobus \n
