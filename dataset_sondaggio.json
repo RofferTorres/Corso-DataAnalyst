@@ -1,0 +1,103 @@
+{
+	"ID_001":{
+		"ore_sonno": 8,
+		"ranking_sonno": 6,
+		"alcol":[false, null],
+		"att_fis": [true, 0.5],
+		"sigaretta": [true, 3],
+		"t_schermo": 3,
+		"autovalutazione": "in forma",
+		
+	},
+	"ID_002":{
+		"ore_sonno": 5,
+		"ranking_sonno": 3,
+		"alcol":[true, "un bicchiere di vino"],
+		"att_fis": [false, 0],
+		"sigaretta": [true, 6],
+		"t_schermo": 4,
+		"autovalutazione": "stanchissimo",
+		
+	},
+	"ID_003":{
+		"ore_sonno": 7,
+		"ranking_sonno": 6,
+		"alcol":[false, null],
+		"att_fis": [true, 1],
+		"sigaretta": [true, 1],
+		"t_schermo": 3,
+		"autovalutazione": "bene",
+		
+	},
+	"ID_004":{
+		"ore_sonno": 8,
+		"ranking_sonno": 7,
+		"alcol":[false, null],
+		"att_fis": [false, 0],
+		"sigaretta": [true,5],
+		"t_schermo": 4,
+		"autovalutazione": "normale",
+		
+	},
+	"ID_005":{
+		"ore_sonno": 7,
+		"ranking_sonno": 9,
+		"alcol":[false, null],
+		"att_fis": [true, 1],
+		"sigaretta": [false, null],
+		"t_schermo": 2,
+		"autovalutazione": "carico",
+		
+	},
+	"ID_006":{
+		"ore_sonno": 5,
+		"ranking_sonno": 5,
+		"alcol":[false, null],
+		"att_fis": [true, 0.5],
+		"sigaretta": [true, 4],
+		"t_schermo": 4,
+		"autovalutazione": "stanco",
+		
+	},
+	"ID_007":{
+		"ore_sonno": 7,
+		"ranking_sonno": 8,
+		"alcol":[true, "ogni tanto"],
+		"att_fis": [false, 0],
+		"sigaretta": [false, null],
+		"t_schermo": 4,
+		"autovalutazione": "bene",
+		
+	},
+	"ID_008":{
+		"ore_sonno": 4,
+		"ranking_sonno": 3,
+		"alcol":[false, null],
+		"att_fis": [true, 0.5],
+		"sigaretta": [true, 5],
+		"t_schermo": 5,
+		"autovalutazione": "stanchissimo",
+		
+	},
+	"ID_009":{
+		"ore_sonno": 8,
+		"ranking_sonno": 6,
+		"alcol":[false, null],
+		"att_fis": [true, 1],
+		"sigaretta": [true, 3],
+		"t_schermo": 2,
+		"autovalutazione": "normale",
+		
+	},
+	"ID_010":{
+		"ore_sonno": 6,
+		"ranking_sonno": 5,
+		"alcol":[false, null],
+		"att_fis": [true, 0],
+		"sigaretta": [true, 1],
+		"t_schermo": 3,
+		"autovalutazione": "in forma",
+		
+	}, 
+
+}
