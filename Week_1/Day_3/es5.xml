@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Esercizio 5-->
+<lettera>
+  <mittente>
+    <nome>Luca</nome>
+    <cognome>Tosi</cognome>
+    <indirizzo>
+      <via>Gruppini</via>
+      <civico>217</civico>
+      <comune>Milano</comune>
+      <provincia>MI</provincia>
+      <cap>20100</cap>
+    </indirizzo>
+    <telefono>0123456789</telefono>
+  </mittente>
+  <destinatario>
+    <nome>Maria</nome>
+    <cognome>Lorenzi</cognome>
+    <indirizzo>
+      <via>Roma</via>
+      <civico>4</civico>
+      <comune>Napoli</comune>
+      <provincia>NA</provincia>
+      <cap>80126</cap>
+    </indirizzo>
+    <telefono>987654321</telefono>
+  </destinatario>
+  <data>
+    <giorno>28</giorno>
+    <mese>09</mese>
+    <anno>2022</anno>
+  </data>
+  <corpo_testo>
+        Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt 
+        ut labore et dolore magna aliqua.
+        Aliquet enim tortor at auctor urna.
+        Tellus mauris a diam maecenas sed enim.
+        Non tellus orci ac auctor augue. 
+        Orci ac auctor augue mauris. 
+        Curabitur vitae nunc sed velit dignissim.
+        In eu mi bibendum neque egestas congue quisque.
+        Ut consequat semper viverra nam libero justo. 
+        Malesuada fames ac turpis egestas integer eget
+        aliquet nibh praesent. Sed turpis tincidunt id 
+        aliquet. Facilisis sed odio morbi quis commodo
+        odio aenean. Malesuada bibendum arcu vitae elementum.
+        Proin nibh nisl condimentum id. Facilisis volutpat est velit egestas. 
+    </corpo_testo>
+  <firma>con affetto, Luca</firma>
+</lettera>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Esercizio 4-->
+<CD>
+  <casa_discografica>Fri Records</casa_discografica>
+  <artisti>883</artisti>
+  <anno_pubblicazione>1992</anno_pubblicazione>
+  <cat_musicale>Pop</cat_musicale>
+  <canzoni>
+    <traccia>
+      <numero>1</numero>
+      <durata>04:14</durata>
+      <nome>Non me la menare</nome>
+    </traccia>
+    <traccia>
+      <numero>2</numero>
+      <durata>03:37</durata>
+      <nome>S'inkazza (Questa casa non è un albergo)</nome>
+    </traccia>
+    <traccia>
+      <numero>3</numero>
+      <durata>4:12</durata>
+      <nome>Hanno ucciso l'uomo ragno</nome>
+    </traccia>
+  </canzoni>
+</CD>

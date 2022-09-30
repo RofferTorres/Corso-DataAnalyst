@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<phonebook>
+  <company>
+    <cname>Microsoft</cname>
+    <exchange>09-999000</exchange>
+    <president>
+      <pname>Bill Gates</pname>
+      <extension>09-9990011</extension>
+    </president>
+    <secretary>
+      <sname>Katharine Finch</sname>
+      <extension>09-9990012</extension>
+    </secretary>
+  </company>
+  <company>
+    <cname>Oracle</cname>
+    <exchange>09-888000</exchange>
+    <president>
+      <pname>Larry Ellison</pname>
+      <extension>09-8880011</extension>
+    </president>
+    <secretary>
+      <sname>Helen Calhoun</sname>
+      <extension>09-8880012</extension>
+    </secretary>
+  </company>
+</phonebook>
