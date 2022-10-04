@@ -15,5 +15,5 @@ while i < 100:
     elif dir == 4:
         X = X - S
     i = i+1
-print('La posizione finale è:',X,Y)
+print('La posizione finale è ({}, {})'.format(X,Y))
 
