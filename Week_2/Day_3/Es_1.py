@@ -7,7 +7,7 @@ print(str_2)
 split = str_input.split(' ')  # lista di parole date in input
 d = {}
 t = tuple()
-for word in split:                          # interazione sulle parole nella lista 'split'
+for word in split:                          # iterazione sulle parole nella lista 'split'
     for char in word:                       # iterazione sulle lettere per ogni parola
         if char.islower() == True:          # attributo islower verifica se la lettera è minuscola
             if char in d.keys():
