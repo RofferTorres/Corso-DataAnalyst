@@ -15,7 +15,7 @@ for word in split:                          # iterazione sulle parole nella list
             else:
                 t_old = t                   # t_old uguale tuple vuoto se non esiste ancora la key
             t_new =  t_old + (word, )
-            d[char] = tuple(set(t_new))     # rimuovo eventuali duplicati e li assegno al key
+            d[char] = tuple(set(t_new))     # rimuovo eventuali duplicati e li assegno alla key
 print(d)
 
 
