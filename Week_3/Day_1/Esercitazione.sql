@@ -1,4 +1,4 @@
--- L’esercizio e mirato a prendere confidenza con le interrogazioni SL nella loro forma basilare. Dato
+-- L’esercizio è mirato a prendere confidenza con le interrogazioni SL nella loro forma basilare. Dato
 -- il seguente schema scrivere le interrogazioni di seguito:
 --	AEROPORTO (Citta, Nazione, NumPiste)
 --	VOLO (ldVolo, GiornoSett, CittaPart, OraPart, CittaArr, OraArr, TipoAereo)
