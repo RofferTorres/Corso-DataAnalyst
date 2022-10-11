@@ -1,14 +1,14 @@
--- L’esercizio è mirato a prendere confidenza con le interrogazioni SL nella loro forma basilare. Dato
+-- L’esercizio e mirato a prendere confidenza con le interrogazioni SL nella loro forma basilare. Dato
 -- il seguente schema scrivere le interrogazioni di seguito:
 --	AEROPORTO (Citta, Nazione, NumPiste)
 --	VOLO (ldVolo, GiornoSett, CittaPart, OraPart, CittaArr, OraArr, TipoAereo)
 --	AEREO (TipoAereo, NumPasseggeri, QtaMerci)
 
 -- Le Citta con un aeroporto di cui non e noto il numero di piste;
-select Citta from AEROPORTO where NumPiste IS NULL;
+select distinct Citta from AEROPORTO where NumPiste IS NULL;
 
 -- I tipi di aereo usati nei voli che partono da Torino;
-select TipoAereo from VOLO where CittaPart = ‘Torino’;
+select distinct TipoAereo from VOLO where CittaPart = ‘Torino’;
 
 -- Le città da cui partono voli diretti a Bologna
 select CittaPart from VOLO where CittaArr = ‘Bologna’;
