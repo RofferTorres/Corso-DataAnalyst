@@ -18,7 +18,7 @@ where (ESECUZIONE.TitoloCanz = AUTORE.TitoloCanzone) AND
 
 --	2. 	I titoli dei dischi che contengono canzoni di cui non si conosce l'anno di registrazione; 
 select DISCO.TitoloAlbum Album
-from DISCO,CONTIENE, ESECUZIONE
+from DISCO, CONTIENE, ESECUZIONE
 where DISCO.NroSerie = CONTIENE.NroSerieDisco AND 
 CONTIENE.CodiceReg = ESECUZIONE.CodiceReg AND
 ESECUZIONE.Anno IS NULL;
