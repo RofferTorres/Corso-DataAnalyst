@@ -25,11 +25,13 @@ where ESECUZIONE.Anno IS NULL;
 select distinct CANTANTE.NomeCantante Cantante_non_solista
 from ESECUZIONE, CANTANTE
 where ESECUZIONE.CodiceReg = CANTANTE.CodiceReg
-group by CANTANTE.CodiceReg having count(CANTANTE.CodiceReg) > 1;
+group by CANTANTE.CodiceReg 
+having count(CANTANTE.CodiceReg) > count(CANTANTE.Cantante_non_solista);
 
  
 --	4.	I cantanti che hanno sempre registrato canzoni come solisti.
 select distinct CANTANTE.NomeCantante Cantante_solista
 from ESECUZIONE, CANTANTE
 where ESECUZIONE.CodiceReg = CANTANTE.CodiceReg
-group by CANTANTE.CodiceReg having count(CANTANTE.CodiceReg) = 1;
+group by CANTANTE.CodiceReg 
+having count(CANTANTE.CodiceReg) = count(CANTANTE.Cantante_solista);
