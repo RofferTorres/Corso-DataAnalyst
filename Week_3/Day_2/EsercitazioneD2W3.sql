@@ -1,5 +1,6 @@
 -- Esercitazione D2W3
--- L'esercizio è mirato a prendere confidenza con le interrogazioni avanzate SQL che fanno uso di join, funzioni di aggregazione e ordinamenti. Dato il seguente schema scrivere le interrogazioni di seguito:
+-- L'esercizio è mirato a prendere confidenza con le interrogazioni avanzate SQL che fanno uso di join, 
+-- funzioni di aggregazione e ordinamenti. Dato il seguente schema scrivere le interrogazioni di seguito:
 --	DISCO (NroSerie, TitoloAlbum,Anno, Prezzo) 
 --	CONTIENE (NroSerieDisco, CodiceReg, NroProg) 
 --	ESECUZIONE (CodiceReg, TitoloCanz, Anno) 
