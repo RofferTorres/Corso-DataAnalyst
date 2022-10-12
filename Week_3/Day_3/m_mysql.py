@@ -1,6 +1,14 @@
 import mysql.connector
 
 def connection_database(u='root',psw='Pssmysql',h='127.0.0.1', db=''):
+    """
+    
+    :param u:
+    :param psw:
+    :param h:
+    :param db:
+    :return:
+    """
     try:
         c = mysql.connector.connect(user=u, password=psw, host=h, database=db)
         return c
@@ -23,6 +31,13 @@ def query(select, frm, where='None', grouby='None',order='None'):
         print(i)"""
 
 def query_wo_parameters(q='',c=None ,type_fetch='fetchall'):
+    """
+
+    :param q:
+    :param c:
+    :param type_fetch:
+    :return:
+    """
     cursor = c.cursor()
     cursor.execute(q)
     if type_fetch == 'fetchall':

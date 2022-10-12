@@ -24,14 +24,14 @@ try:
         print('I cantanti che non hanno mai fanno un brano da solista sono: ',q_es3)
         q_es4 = m_mysql.query_wo_parameters(q_es['query4'], conn)
         print("I cantanti che hanno cantato da solisti sono :",q_es4)
-        #m_mysql.print_result(q_es4)
+
 
     elif request == 'I':    # Inserimento dati nella tabella autore
         print("\nSono stati inseriti i dati della lista_autori")
         new_authors = m_mysql.list_to_author('autore', lista_autori, conn)
         query_stmt = "SELECT * FROM %s;" % 'autore'
         q_test = m_mysql.query_wo_parameters(query_stmt, conn)
-        #print(q_test)
+        print(q_test)       # show nuovi dati inseriti
 
     elif request == 'D':
         tbl_del = input('\nScegli tabella in cui cancellare i dati (autore, cazone): ')
