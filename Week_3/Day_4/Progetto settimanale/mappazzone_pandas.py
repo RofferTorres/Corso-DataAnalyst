@@ -15,7 +15,7 @@ def queryby_pd(n=None):
     7 Percentuale di rivenditori tra gli utenti,
     8 Quantità ordini in elaborazione,
     9 Numero utenti con P.IVA,
-    10 Prodotto Kingston più disponibile in magazzino
+    10 Quantità di prodotti Kingstone disponibili in magazzino
 
     :return: print del risultato
     """

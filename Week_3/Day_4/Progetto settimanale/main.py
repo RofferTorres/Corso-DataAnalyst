@@ -112,7 +112,7 @@ try:
     iva_query = p_metodi.query_wo_parameters(query, conn)
     print("\n[Cursor]\nN° utenti con P.IVA: {}\n".format(iva_query[0][0]))
 
-    #10 Prodotto Kingston più disponibile in magazzino
+    #10 Quantità di prodotti Kingstone disponibili in magazzino
     qpd10 = mappazzone_pandas.queryby_pd(10)
     query = "select x.marca Nome, sum(quantita) Qnt from prodotto p right join (select m.nome marca, m.mid " \
             "from marca m where m.nome like 'KING%STON') as x on x.mid = p.mid;"
