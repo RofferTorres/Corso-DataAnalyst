@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1005.1835                               -->
+<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='servizio 1 ium agosto con eventi precedenti al purchase' inline='true' name='federated.0x2jiog0acli4r17dqvny0q8h6h2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='servizio 1 ium agosto con eventi precedenti al purchase' name='textscan.0z0ag3m1a40fho1eid6ij17qu7g0'>
+            <connection class='textscan' directory='D:/vtrg1/Documents/Data Analyst/Week5/Day1' filename='servizio 1 ium agosto con eventi precedenti al purchase.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0z0ag3m1a40fho1eid6ij17qu7g0' name='servizio 1 ium agosto con eventi precedenti al purchase.csv' table='[servizio 1 ium agosto con eventi precedenti al purchase#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='it_IT' separator=';'>
+            <column datatype='string' name='clickId' ordinal='0' />
+            <column datatype='string' name='conversionType' ordinal='1' />
+            <column datatype='datetime' name='postbackTimestamp' ordinal='2' />
+            <column datatype='string' name='purchaseType' ordinal='3' />
+            <column datatype='real' name='cast_revenue' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0z0ag3m1a40fho1eid6ij17qu7g0' name='servizio 1 ium agosto con eventi precedenti al purchase.csv' table='[servizio 1 ium agosto con eventi precedenti al purchase#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='it_IT' separator=';'>
+            <column datatype='string' name='clickId' ordinal='0' />
+            <column datatype='string' name='conversionType' ordinal='1' />
+            <column datatype='datetime' name='postbackTimestamp' ordinal='2' />
+            <column datatype='string' name='purchaseType' ordinal='3' />
+            <column datatype='real' name='cast_revenue' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[servizio 1 ium agosto con eventi precedenti al purchase.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;it&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;it_IT&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clickId</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[clickId]</local-name>
+            <parent-name>[servizio 1 ium agosto con eventi precedenti al purchase.csv]</parent-name>
+            <remote-alias>clickId</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[servizio 1 ium agosto con eventi precedenti al purchase.csv_95D1C6F82FA744A69800D14A585469F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conversionType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[conversionType]</local-name>
+            <parent-name>[servizio 1 ium agosto con eventi precedenti al purchase.csv]</parent-name>
+            <remote-alias>conversionType</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[servizio 1 ium agosto con eventi precedenti al purchase.csv_95D1C6F82FA744A69800D14A585469F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>postbackTimestamp</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[postbackTimestamp]</local-name>
+            <parent-name>[servizio 1 ium agosto con eventi precedenti al purchase.csv]</parent-name>
+            <remote-alias>postbackTimestamp</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[servizio 1 ium agosto con eventi precedenti al purchase.csv_95D1C6F82FA744A69800D14A585469F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>purchaseType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[purchaseType]</local-name>
+            <parent-name>[servizio 1 ium agosto con eventi precedenti al purchase.csv]</parent-name>
+            <remote-alias>purchaseType</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[servizio 1 ium agosto con eventi precedenti al purchase.csv_95D1C6F82FA744A69800D14A585469F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cast_revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cast_revenue]</local-name>
+            <parent-name>[servizio 1 ium agosto con eventi precedenti al purchase.csv]</parent-name>
+            <remote-alias>cast_revenue</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[servizio 1 ium agosto con eventi precedenti al purchase.csv_95D1C6F82FA744A69800D14A585469F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Time' datatype='string' name='[Calculation_529735932306542592]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='TRIM(SPLIT(REPLACE(STR([postbackTimestamp]),&apos;/&apos;,&apos;-&apos;),&apos; &apos;,2))' />
+      </column>
+      <column caption='Date' datatype='string' name='[Calculation_529735932306640897]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='TRIM(SPLIT(REPLACE(STR([postbackTimestamp]),&apos;/&apos;,&apos;-&apos;),&apos; &apos;,1))' />
+      </column>
+      <column caption='Calcolo 3' datatype='string' name='[Calculation_529735932307513346]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([conversionType],&apos;purchase&apos;)AND DATEPART(&apos;hour&apos;,[postbackTimestamp]) &gt;= 0 AND DATEPART(&apos;hour&apos;,[postbackTimestamp]) &lt; 6&#13;&#10;THEN &apos;Notte&apos; &#13;&#10;ELSEIF CONTAINS([conversionType],&apos;purchase&apos;)AND DATEPART(&apos;hour&apos;,[postbackTimestamp]) &gt;= 6 AND DATEPART(&apos;hour&apos;,[postbackTimestamp]) &lt; 12&#13;&#10;THEN &apos;Mattina&apos;&#13;&#10;ELSEIF CONTAINS([conversionType],&apos;purchase&apos;)AND DATEPART(&apos;hour&apos;,[postbackTimestamp]) &gt;= 12 AND DATEPART(&apos;hour&apos;,[postbackTimestamp]) &lt; 18&#13;&#10;THEN &apos;Pomeriggio&apos;&#13;&#10;ELSEIF CONTAINS([conversionType],&apos;purchase&apos;)AND DATEPART(&apos;hour&apos;,[postbackTimestamp]) &gt;= 18 AND DATEPART(&apos;hour&apos;,[postbackTimestamp]) &lt; 24&#13;&#10;THEN &apos;Sera&apos;&#13;&#10;END' />
+      </column>
+      <column caption='Calcolo 2' datatype='string' name='[Calculation_943785622761185281]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([purchaseType]) THEN &apos;1&apos; ELSE [purchaseType] END' />
+      </column>
+      <column caption='Decade' datatype='string' name='[Gruppi]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Calculation_529735932306640897]' new-bin='true'>
+          <bin default-name='false' value='&quot;Gruppo 1&quot;'>
+            <value>&quot;2022-08-01&quot;</value>
+            <value>&quot;2022-08-02&quot;</value>
+            <value>&quot;2022-08-03&quot;</value>
+            <value>&quot;2022-08-04&quot;</value>
+            <value>&quot;2022-08-05&quot;</value>
+            <value>&quot;2022-08-06&quot;</value>
+            <value>&quot;2022-08-07&quot;</value>
+            <value>&quot;2022-08-08&quot;</value>
+            <value>&quot;2022-08-09&quot;</value>
+            <value>&quot;2022-08-10&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Gruppo 2&quot;'>
+            <value>&quot;2022-08-11&quot;</value>
+            <value>&quot;2022-08-12&quot;</value>
+            <value>&quot;2022-08-13&quot;</value>
+            <value>&quot;2022-08-14&quot;</value>
+            <value>&quot;2022-08-15&quot;</value>
+            <value>&quot;2022-08-16&quot;</value>
+            <value>&quot;2022-08-17&quot;</value>
+            <value>&quot;2022-08-18&quot;</value>
+            <value>&quot;2022-08-19&quot;</value>
+            <value>&quot;2022-08-20&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Gruppo 3&quot;'>
+            <value>&quot;2022-08-21&quot;</value>
+            <value>&quot;2022-08-22&quot;</value>
+            <value>&quot;2022-08-23&quot;</value>
+            <value>&quot;2022-08-24&quot;</value>
+            <value>&quot;2022-08-25&quot;</value>
+            <value>&quot;2022-08-26&quot;</value>
+            <value>&quot;2022-08-27&quot;</value>
+            <value>&quot;2022-08-28&quot;</value>
+            <value>&quot;2022-08-29&quot;</value>
+            <value>&quot;2022-08-30&quot;</value>
+            <value>&quot;2022-08-31&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='servizio 1 ium agosto con eventi precedenti al purchase.csv' datatype='table' name='[__tableau_internal_object_id__].[servizio 1 ium agosto con eventi precedenti al purchase.csv_95D1C6F82FA744A69800D14A585469F4]' role='measure' type='quantitative' />
+      <column caption='Cast Revenue' datatype='real' name='[cast_revenue]' role='measure' type='quantitative' />
+      <column caption='Click Id' datatype='string' name='[clickId]' role='dimension' type='nominal' />
+      <column caption='Conversion Type' datatype='string' name='[conversionType]' role='dimension' type='nominal' />
+      <column caption='Postback Timestamp' datatype='datetime' name='[postbackTimestamp]' role='dimension' type='ordinal' />
+      <column caption='Purchase Type' datatype='string' name='[purchaseType]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;IT&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='servizio 1 ium agosto con eventi precedenti al purchase.csv' id='servizio 1 ium agosto con eventi precedenti al purchase.csv_95D1C6F82FA744A69800D14A585469F4'>
+            <properties context=''>
+              <relation connection='textscan.0z0ag3m1a40fho1eid6ij17qu7g0' name='servizio 1 ium agosto con eventi precedenti al purchase.csv' table='[servizio 1 ium agosto con eventi precedenti al purchase#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='it_IT' separator=';'>
+                  <column datatype='string' name='clickId' ordinal='0' />
+                  <column datatype='string' name='conversionType' ordinal='1' />
+                  <column datatype='datetime' name='postbackTimestamp' ordinal='2' />
+                  <column datatype='string' name='purchaseType' ordinal='3' />
+                  <column datatype='real' name='cast_revenue' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Foglio 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='servizio 1 ium agosto con eventi precedenti al purchase' name='federated.0x2jiog0acli4r17dqvny0q8h6h2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0x2jiog0acli4r17dqvny0q8h6h2'>
+            <column caption='Date' datatype='string' name='[Calculation_529735932306640897]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='TRIM(SPLIT(REPLACE(STR([postbackTimestamp]),&apos;/&apos;,&apos;-&apos;),&apos; &apos;,1))' />
+            </column>
+            <column caption='Decade' datatype='string' name='[Gruppi]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Calculation_529735932306640897]' new-bin='true'>
+                <bin default-name='false' value='&quot;Gruppo 1&quot;'>
+                  <value>&quot;2022-08-01&quot;</value>
+                  <value>&quot;2022-08-02&quot;</value>
+                  <value>&quot;2022-08-03&quot;</value>
+                  <value>&quot;2022-08-04&quot;</value>
+                  <value>&quot;2022-08-05&quot;</value>
+                  <value>&quot;2022-08-06&quot;</value>
+                  <value>&quot;2022-08-07&quot;</value>
+                  <value>&quot;2022-08-08&quot;</value>
+                  <value>&quot;2022-08-09&quot;</value>
+                  <value>&quot;2022-08-10&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Gruppo 2&quot;'>
+                  <value>&quot;2022-08-11&quot;</value>
+                  <value>&quot;2022-08-12&quot;</value>
+                  <value>&quot;2022-08-13&quot;</value>
+                  <value>&quot;2022-08-14&quot;</value>
+                  <value>&quot;2022-08-15&quot;</value>
+                  <value>&quot;2022-08-16&quot;</value>
+                  <value>&quot;2022-08-17&quot;</value>
+                  <value>&quot;2022-08-18&quot;</value>
+                  <value>&quot;2022-08-19&quot;</value>
+                  <value>&quot;2022-08-20&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Gruppo 3&quot;'>
+                  <value>&quot;2022-08-21&quot;</value>
+                  <value>&quot;2022-08-22&quot;</value>
+                  <value>&quot;2022-08-23&quot;</value>
+                  <value>&quot;2022-08-24&quot;</value>
+                  <value>&quot;2022-08-25&quot;</value>
+                  <value>&quot;2022-08-26&quot;</value>
+                  <value>&quot;2022-08-27&quot;</value>
+                  <value>&quot;2022-08-28&quot;</value>
+                  <value>&quot;2022-08-29&quot;</value>
+                  <value>&quot;2022-08-30&quot;</value>
+                  <value>&quot;2022-08-31&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column-instance column='[cast_revenue]' derivation='Avg' name='[avg:cast_revenue:qk]' pivot='key' type='quantitative' />
+            <column caption='Cast Revenue' datatype='real' name='[cast_revenue]' role='measure' type='quantitative' />
+            <column-instance column='[cast_revenue]' derivation='Max' name='[max:cast_revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cast_revenue]' derivation='Median' name='[med:cast_revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cast_revenue]' derivation='Min' name='[min:cast_revenue:qk]' pivot='key' type='quantitative' />
+            <column caption='Postback Timestamp' datatype='datetime' name='[postbackTimestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[cast_revenue]' derivation='StdevP' name='[stp:cast_revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cast_revenue]' derivation='Sum' name='[sum:cast_revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0x2jiog0acli4r17dqvny0q8h6h2].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[sum:cast_revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[avg:cast_revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[med:cast_revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[min:cast_revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[max:cast_revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[stp:cast_revenue:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0x2jiog0acli4r17dqvny0q8h6h2].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[sum:cast_revenue:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[avg:cast_revenue:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[med:cast_revenue:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[min:cast_revenue:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0x2jiog0acli4r17dqvny0q8h6h2].[max:cast_revenue:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0x2jiog0acli4r17dqvny0q8h6h2].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0x2jiog0acli4r17dqvny0q8h6h2].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0x2jiog0acli4r17dqvny0q8h6h2].[Gruppi]</rows>
+        <cols>[federated.0x2jiog0acli4r17dqvny0q8h6h2].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{D5C3C956-2F85-4DD9-99CA-3CF071CEEFE0}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Foglio 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0x2jiog0acli4r17dqvny0q8h6h2].[:Measure Names]</field>
+            <field>[federated.0x2jiog0acli4r17dqvny0q8h6h2].[Gruppi]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AD8CC68B-D737-4FB2-B120-08C2BA0953F5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='104' name='Foglio 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAABoCAYAAACnk/+EAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAXNUlEQVR4nO2de1hU1d7HP4czEuKRoyZaGuAFNdRKnQ0BAkImJVRe4NiFTJNjKmaZovZG
+      4gVJPSrYIU0MNEy7nDc6L5aWGBSjcnMsJVTgeBu8oChe4MhwGdjvHwMjCCgqCDLr8zw+jzNr
+      r71/v2F/Z6+9Z33X70+yLMsIBEaKSUsHIBC0JEIAAqNGCEBg1AgBCIwaIQCBUSMEIDBqhAAE
+      Ro0QgMCoEQIQGDVCAAKjRghAYNQIAQiMGiEAgVEjBCAwaoQABEaNEIDAqBECEBg1QgBtHV0e
+      icun4OkqIUmueE6J4MD1lg6qCdHE4CdJSNJcdtbK6zo750pIkoRfjKbB7kIAbZpCVCGTCcpS
+      sjIuFbU6ga0BfSm9erf7U7FI8uMW51ML8Rze3umkHdDdeEt3gLSTb/Km9617CgG0ZQ5FExo/
+      mIURMxnaRQGY0k3ywrlnSwfW1CgYMfIZUtMO3XjrUBoZTo48cZueQgBtGM1BNQVDnHnaor7W
+      bDZP8cbDSUKSnPDwDWZXflVTYTrhEz1wkiQkJw98l/xMgSYGP2kOO8gmwkc/tFikuo/J3AaF
+      8mkGq1I5UvX6SGoKTz79VO2NdCeIDRyLa1VeE8PTUdz3SAX3jRJtMXSz5OH6GrVmKOdE8fLj
+      j2KuKOP3MB8CIpN5bqEzOV+tIHFoGElfDMW0rJBjh8+AzbNsU/dmkRRJn9htTLK539nchg5P
+      4/zYNvZrZjLQRsP+dFucJysgoXoDHQfC3+Fn5ackrLbCtCyHTVP9hQDaMmbtzSH/IgVQVwTt
+      TLn0fRCBMzK4rK16z1s/hu7Zy5ZLy5Yw+/LzuI92wd1+cP0ialU8jOQIK9QFTPqLmtSu7qzu
+      AAcM7Tmkqs6zP28czmtu9BJDoDaMzeAhWBxMJq2wbltB3FLmZzry8a5U1Go1sbMGGNo6PPcR
+      CVs+ZHQ/LekbZuEzPpya95etFRt7Z84kp5GflgzOT9OhzhYW+K7X51v9TwigLaOcRqBzMh8H
+      xfD7ZR1QRr56J8lnoaSkGLpa0t1UQVl+JskZeYZu2aofOWE2kNGT3mPFx+8w7PxBsi4AdOAv
+      Fnnk5FxGhw5daxPFQEfcMvexbt8lHKWbr1n9sR8Ocesiqz4LHcV5mUIAbRsLvFZ+x4IeSSwY
+      44gkjeT19cd5qBP0fNEfH00Yno6uTFi8G20XS0MvM+1+wiY9h6Mk4TjmU4r8ZvJiTwAlE94d
+      xuGlnjhKHqw60OCBWwglzzybwo4MB+zr3KMocAhYy3TLX5jj7YgkueI9az1/EksjCowZcQUQ
+      GDVCAAKjRghAYNQIAQiMGiEAgVEjBCAwaoQAWhhNjB+SJFX9c8LDN5BvcspaOqxmQ5eXyPIp
+      nvoJaa6eTIk4QHPZE1SLpBqfrSueU8JJvlz71zshgNaAd5j+p/nUBNaPu07k9DDSW9uvrE1B
+      oYqQyUFkKVcSl6pGnbCVgL6l3L09YRGSXwy3sicMmBWr/2yTY1nYX8U782O5UKNdCKA1oTDH
+      zu9VXAv3sT+npYNpeg5FhxI/eCERM4eityd0Q/Jy5r7YE0y74frqWAYcTK/liBMCaO3UnJvv
+      OpbA2BPoqBo6zd15Y/igicHPaREqHfXOe9fPh9MQ4yfx7scxBPrq9+n6arVFUkOMX023102v
+      G4ij8Wg4qC5giPPT1G9P2MwU7xoehOBd6O0JOk7EBjLWVT+UcfWcwubsqvzn7IDsCHwkCUla
+      xJ3aE3QnYoUAWhW6y/y+Lpp46+fx6A9wgdgFqykLiGWPWk1q3Dt02BhIdA7YuHsyIPlX9lYp
+      QPNrPHljvHFWVM97jyBBrUadFInHwbks23Xja6/YXMncLbtJSf6Mcf+NYftt5/Q0HEfjKUFv
+      T6h/YrXWTMmcqB3sUatRJ4Xh/PtiIpOBkgQ2LC9nUlwqanUqu2ICUJqBzaRtqMO8YcAsYtVq
+      1OoluN3q8GWn+X7dl5wYMRKXDoDuAOHv/Cz8AK2CHXOQdgC0o6PdBNZETWOgArh+gOT9J0ja
+      78n/1tjc+zzg9jwvDdpAwt7rPPfcJX6Nz8Pz3WEoGpj3PuD8JcP/ewwYzKPmAF142AKu3S6+
+      W8XRv7FJmqG3J9TrTqCd6SW+DwpkRsZlatkTzHrT1zqdf777PqeeHYGr20iG9G7sMSE7wgcp
+      AqA9j7m/TcxyL/0VKCcV1fn9QgCtAu8w1AsfI/a9GWxsP4DeFjX/LEOYtyOKl7vf3Kk77qMG
+      sTZhL9cfP0983mjmOFT3s8B3fTzvO9z8570XN3tDcTQWGwYPsWBDchqFPl43DYMKiFs6n0zH
+      L9i10Q5zhYYYPx9OANCfaV/HMXz/r+z98UeWRf0Dq8BviRjTuEAGzIpl27gLrPKfS2ZvOx4x
+      rdFo4SuGQK0GRR98wj/ljYLlTP5gJ3k6oIMShyEH2bTme06XAZRReGwP+6vO4+7PjmbInmS+
+      TYin0McbJdDQvPeUIwWNCCKP02fLQFfMyT0/kFptEbhNHI1FOS0Q5+SPCYr5Hb09IR/1zmTO
+      UoLentAdU0UZ+ZnJGOwJBQfYmVaItf0Epi9by6JxnVBnHK+K6y9Y5OWQc1kHOl3D9yQWDsyL
+      DsX2x5nMWpehvx/qb89w4oQAWhWKPvhFxvDahRAmhyRyWdcdn5B/4H4pgtecJSRpJL4f7eZy
+      9fYPP8+LzjuIWK/lhVEDq3dS77z3TK3ZbQ7eE1ev/iTMdcZp1BusO9GDfgaLwG3iaCwWXqz8
+      bgE9khYwxlFCGvk6648/RCd68qK/D5owTxxdJ7B4txaDPcEMzn71PmNGSEjSCOYkDyDQz0Hf
+      ppzAu8MOs9TTEcljFbe8lbFwY+GXofTaPo1Zm3IoUzgQsHa68AMIjBtxBRAYNUIAAqNGCEBg
+      1AgBCIya2/4OoFar70ccAkGLIJ4CCYwaMQQSGDVCAAKjRghAYNQIAQiMmnsUgI7LyRsI8K02
+      SngyJfgbMupZjbhVoCvm5J4YPgoYi+ttrHQPCpWVlWzfvp3Ro0cjSRIvvPAC+/btM7Rv3Lix
+      hi9WwsvLi/x8vdUkPz+ft956CwcHB8aPH09mZmaDx/j5558Nxxg/fjypqan3Jb+mpN585Xvg
+      WlKw7On4hvzJ/gtyqSzLcukF+Y/tS+WN++5lr83Hqa3T5NcXfi6rtiyQla99Lp9q6YCagF9+
+      +UVeuHChfPbsWbmiokLOyMiQZ8yYIRcUFMiyLMsrVqyQMzMz6/QrLy+XlyxZIn/99ddyeXm5
+      nJSUJM+YMUO+du1anW1zcnLkgIAAWaPRyBUVFfIff/whv/nmm7JGo2n2/JqKhvK9Bz/AASIX
+      xzN44S5mSlWzu027MfjFhQxuGsE2OTZ+G/gCQLWopUNpMtzc3HBzc8PERH8xHzRoEH369EGn
+      01FaWopWq8XS0rJOv3PnzlFSUsJLL72EQqHAxcWFlJQUsrKycHBwqLXt6dOnGTJkCNbW1gAM
+      HjwYFxcXrl69anivtdNQvnc/BNJkcrBwCM71F6AC9MtS+MWc4ETsbF5w0vtLNTF+tcpW1nqt
+      WoT04lxCqvysTh7TiaweT2li8JOmsmj5RH1dK9exBO/Mq5oDrveN+no46ZcWmbicxLy2uKxC
+      XUxMTAwnP0BycjImJiZ06dKFkpISTE1N6dChbqmIq1evYmNjQ/v27Q37eeqpp7h8ue4k5yef
+      fJLDhw9z/PhxKisryczM5NSpU/Tt27f5EmtiGsr37gVQWoKWblRbPGuuwVKzeFphYigrTviw
+      KamxdaW64Dr/X+xRJ/OvdzrwzbxoatT+w/aVSHanpBL/Tw+Oh3zEjgLQHQhnxjoZvy1JqNVJ
+      RHpkETQzmja4sEKDlJSUsH79ejIyMnj77bdRKBSUlpaSmprKiBEjcHBwYNy4cahU+j9OeXm5
+      4WSoRqFQkJubW2ffXbt2Zf78+cybNw8HBwdWrFjB9OnT6xVWa6WhfO9eAA+Z0Z58LlYZjdyW
+      qFGrY6lRaQeA64/5sXqeK91M6+6iXiweo3c3U8AUq3FjcC1Qc9BwweiBTW9zFCjoMnQsnn1S
+      +O0w5KSqMPXxZ5yVvl//Kf545qpIaQt3uY3g6tWrLFu2jGHDhhEQEICpqf7D7tatG9u3b0et
+      VpOamsqyZcv44osvOHbsGO3atUOr1dbaj06nq3dIc+bMGdavX8/atWtJT08nKCiIsLAwzp07
+      d1/yawoayvfuBWAzmCEWB0murwBVDR7t37f+ZTAag06HDgWKeu9UKqjQtWugzXjQarV8+umn
+      /P3vf8fR0bHB7UxMTBg0aBAODg7k5ubSqVMnNBqN4aSorKzk0KFDdOnSpU7f+Ph43N3dsba2
+      xsTEBDs7O/r378+RI0fqbNtaaSjfe3gMquSNmUNIDpnFOnU+eqtoMdcbMfTOO32WMnQUn9zD
+      D6l5tRt1pZTq0C8REhlD4oBncDGsnFRKaZUn9fT3G/jmoicjnoL+jm6UxUbz79NlQBk5m6KJ
+      t3bDqbWV8mwGDhw4gI2NDb169arTtnfvXiIjIyksLDSM3VNSUrC1taVHjx6YmZmxfft2dDod
+      e/fuRaPR8Pjjj9fZj62tLT/99BPnz58HIDc3l99++43OnTs3d3pNRkP53tP3Z3efCL7rvIqg
+      D3zYfFkL7btg+4QfAXU/QwM9Xb3o7z8X5x1m9Bo+Gb9+Nz2hyP2Kt0dt5nIR+iVCIvy4cR7v
+      Y9ULrvzPZS3tH3Pn7Q1BuHUAlO/x6cz3mf/GCEKLoKPdS4Su879pxQ79SgMR2Tfe8ZEiAG/C
+      bremTCsmJyeH9evXExYWZnivQ4cOREREIEkSR48eZezYsRQWFmJtbc38+fMNw5zp06fz4Ycf
+      smbNGmxsbAgNDcXCQn+93rJlC+fOneP999/HxcWF8+fPM3HiRK5cuYKlpSUzZ85k6NChLZLz
+      3aBQKOrN955+B2hykoIbfj5/6nP5NWWwnHS/YzJCiouL5Q8++EA+efJkS4fS7IipEII6HD9+
+      HHt7+3qHVW0N4QcQGDXiCiAwaoQABEbNbZ8CFRcX3484BIIWQVwBBEaNEIDAqBECEBg1QgAC
+      o0YIQGDU3ONcygqupH1OSMR3HMototysM4Pc3mDmOz4MvuspoM1HxZUMvl79D75MzaWo3Iye
+      rpMIWuDXKmNtLJWVlfz0009ERUVx6dIlunfvzty5cw0zQzdv3szmzZsN21taWrJhwwYsLS25
+      ePEiISEhZGRk0LNnT4KCghg4cGCdY9y8D9DPLl2yZAkjRoxo3gSbkPryve0vwbd6DFq4L5Q3
+      gnPxWrWMycMsMS27yJGfN5HeZQGTG56Z22LsW+nL9sc+IPBvw7DkLN8vnkZk9xB+ePfBmdR1
+      M3v27CEpKQl/f3+6d+/O0aNHiYqKIjg4mM6dOxMeHs7zzz+PnZ1drX46nY7Vq1fTr18/xowZ
+      Q1paGt9++y1Lly6lY8eOtzxmcXEx4eHhTJs2ja5duzZnek1GQ/newxXgdzYvT2Tggn/z1rBq
+      T7AlA70WUPc7pDVQwtBZ3zDc/M9Vr3vy1KDuFO7PpYCh9ZRtezAYPnw4w4cPN9gi7ezs6N27
+      dy1PcH0naV5eHqWlpXh5eaFQKHByciI9PZ2cnByUSuUtj/nbb7/Rr1+/B+bkh4bzvft7gNwj
+      ZBQ+wdPKhscP+0Ld8N92ilNxC/Ad6c+2XMjd5o//thu2u1qv94XiNuEDVga9iqebGyO932VT
+      ZmH1hvi7zSJ09VS8R7rh5vkqofHnqQCgglNxQbzuPRI3t5F4T11N0vmKm6Ixw9xw8gOFmfyQ
+      +B/62T+4Jz/U9QSnpaVhYmJC586dKS0tbdATfO3aNaysrGp5ZJ944gmuXLlyy+NptVpUKhVO
+      Tk5Nm0gz01C+TXwTnMs2fzdCbyxLw4VjGrqMWcm3CdH4NWYBgY6DeDX0K+JVKhJ2TCAv4D1u
+      6OUR3AM/Y0eCClX8Snp9M4EV+yBr46vMvzCRrTsSUKkS2PGZE3snvFWjXzUVnIoLZOzIiaz8
+      vSvTolVENyqo1s21a9dYunQp+/fvx8nJyeAJtrCwIDAwEHNzcyorKzl69CizZs3ixIkTd3Uc
+      nU5HREQEEyZMwMrKqomzaBnuXgDWA3nS4g/SDtzaEtndtvfdWyIrbmWJrNRbIv9cX1v9FO5b
+      wex/FvG36M9ZMOIR7qBrq0Wr1RIVFcXkyZOxt7dvcLtqK6NSqeT06dP89a9/5fTp07Usgn/8
+      8cctXV5ZWVmYm5vTp0+fJs+juWko33u4Agzl1alPkLZyHht/u1hlidRS3AhL5IWzeZRRQbEm
+      mZ/2X6jdqCujrAKouEJG9Jeo+rnh1KO68YYl8uzOaL4reAaXJ6Gf/XDKtm/h+7N6S+SxLVtI
+      fGw4DrW+3M/x45ZdPDwlCL9ebeHU13Pw4EGsrKzqNbOnpKSwadMmioqKqKys5MiRI6Snp9On
+      Tx8effRRHnroIXbu3IlOpyMlJYXc3Fz696+/8nVlZSVJSUl4enrWGnI9KDSU7z09Bu02Zg3b
+      OoWzZIkfW6+UgFln+gx+mam3qB7ec7gnfWd+wLO7zLB2fI2X+940Aj/zLXNf2sqVIug4YDwf
+      rX6FG3/aVD7+myeLr5Rg1tOVaWvnMdwcGPo2a6cG8+Fbo1lVBB0HjCY4bBL9au34JMeOwn+O
+      vo5bZI23+01ja7QfD+pA6NixY3z22Wd88sknhvfMzc1ZvXo1Q4cOJTs7m1deeYWioiKsrKyY
+      PXu2Yfji7+9PSEgIERERWFlZsWjRIsMToK+++oq8vDzmzJljOE5RUdED+e0Pektkffne02PQ
+      JmdfKG6betV/QuZuw//1U0xRBTH8/kVklGi1WlatWsXkyZMfmJXf7pYH71omaHZOnjzJsGHD
+      2vzJD42wRAo/gKAtI64AAqNGCEBg1IhVIQRGjbgCCIwaIQCBUSMEIDBqhAAERo0QgMCoMaoy
+      qfmq8BuxOnngG/gNOWUtHVXzUlxcTGhoKE5OTjg5ObF48WJKS0uBxpdJvbnUqiRJODg4kJiY
+      eD9TuWeMvkzqwf/bIKv+c00ulWW5/PoROfoNR9kz7GBLh9VsVFRUyKGhoXJYWJh8/fp1uays
+      TNZoNHJ5efkdlUm9mf/+979ycHCwnJ+ffx+yaBoayvcergDVZVIjmCl1wxQMZVKnOjeVZpuW
+      p8ZMw9XWAlNAYW6H+whrCq5ea+mwmo0zZ85w8eJF/P39MTc3p127dlhbW6NQKOotG2pjY0NW
+      VtZt96tWqxkwYEC95VdbKw3la5xlUssKObY7hAWbzZg1qZWqtQnIzc3Fzs7OUPWlJndSJrUm
+      Wq2WX375BRcXl2aJubkQZVIBfZkkCcn5GV5Ze44X10bg16ftVtkrKSkhKyuLcePG4eDggJub
+      G1FRUZSVld1RmdSaZGRk0KNHjwdupqgokwqADZO2qVGnqtj98Xg0K7zxjzlBWy6p3atXL6Kj
+      o0lPTycuLo6cnBxSUlLuqExqzfbdu3fj7u7ezFE3PaJMak0U5nS2HcXCWc9wOH4PZ+82vlaO
+      jY3+ktupUycAOnfujKenJ9nZ2XdUJrWaI0eOYG5ujq2tbfMH38SIMqkcIi5yD8euFOu/8cvy
+      2Z2QSruej/DgrG5zZ9jY2JCfn098fDyVlZVcuXKFxMRElErlHZVJBf0Jk5iYiJeX1wPpCW4o
+      33usElkun0v4SH5zlIusVCplpcso+eUZYXLSBX1rUrBSfu3z2jUfy49vlae5O8pKR3fZZ+7n
+      8ndrJtzYJilYVjq6y6PcHWWl0lF2fz1M3ldQrm879bn8mtJFHlV1LJcxc+Wvs0sNcRz/dq7s
+      Y+j3kZxwrvymWC/ISWEz5JerY606/qHbP/V7oLlw4YI8e/Zs2d7eXvbw8JC3bt0qV1RUGNqm
+      Tp0q29vby76+vnJ2drahX0xMjLx8+XLD66NHj8pLliyRy8tv/lwfHOrLV5RJFdRBlEkVGDXG
+      VCb1/wGdLtl5hfUmxAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
